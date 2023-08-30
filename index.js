@@ -4,7 +4,7 @@ dotenv.config({ path: ".env" });
 import cors from "cors";
 import express from "express";
 import database from "./config/database.js";
-import userRoutes from "./Routes/user.routes.js";
+import userRoutes from "./routes/user.route.js";
 
 const app = express();
 
