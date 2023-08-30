@@ -4,8 +4,8 @@ import {
   newUserValidator,
   loginValidator,
 } from "../Validators/joi.validator.js";
-import { userRegister, userLogin } from "../Controller/userController.js";
-import { userUpdateProfile } from "../Controller/userController.js";
+import { userRegister, userLogin } from "../controllers/user.controller.js";
+import { userUpdateProfile } from "../controllers/user.controller.js";
 
 import { authorizeUser } from "../middleware/authMiddleware.js";
 
